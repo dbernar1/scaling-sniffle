@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app-footer {
+  padding: 1rem 2rem;
+  border-top: 1px solid #e2e2e2;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #666;
+}
